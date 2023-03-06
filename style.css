@@ -35,6 +35,12 @@ button {
   height: 40px;
   width: 145px;
 }
+button:hover {
+  background-color: inherit;
+  border: 2px solid white;
+  cursor: pointer;
+  color: white !important;
+}
 main {
   display: grid;
   grid-template-columns: minmax(320px, 1fr);
